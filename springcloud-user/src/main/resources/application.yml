@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+server:
+  port: 8089
+logging:
+  level:
+    com:
+      sztech:
+        springclouduser:
+          initmapper: debug
