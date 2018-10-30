@@ -15,6 +15,6 @@ public class IndexController {
 
     @RequestMapping("test")
     public String test(){
-        return "hello world";
+        return "hello world 123";
     }
 }
